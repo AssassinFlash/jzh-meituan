@@ -1,0 +1,113 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.content.data-v-761dc4f2 {
+  margin: 0 15rpx;
+}
+.search-view.data-v-761dc4f2 {
+  height: 80rpx;
+  font-size: 30rpx;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+.search-view image.data-v-761dc4f2 {
+  width: 35rpx;
+  height: 35rpx;
+}
+.search-view .search-text.data-v-761dc4f2 {
+  padding: 0 10rpx;
+}
+.search-cont.data-v-761dc4f2 {
+  height: 70rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search-cont .search.data-v-761dc4f2 {
+  height: 70rpx;
+  line-height: 70rpx;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #eff3f4;
+  border-radius: 10rpx;
+  position: relative;
+}
+.search-cont .search .search-img.data-v-761dc4f2 {
+  width: 40rpx;
+  height: 40rpx;
+  position: absolute;
+  left: 10rpx;
+  top: 16rpx;
+}
+.search-cont .search .ipt.data-v-761dc4f2 {
+  height: 70rpx;
+  width: 100%;
+  line-height: 70rpx;
+  font-size: 25rpx;
+  text-indent: 40rpx;
+  color: #666666;
+}
+swiper.data-v-761dc4f2 {
+  height: 320rpx !important;
+}
+swiper .swiper-item.data-v-761dc4f2 {
+  height: 320rpx;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+swiper .swiper-item .swiper-img.data-v-761dc4f2 {
+  width: calc((100% / 5) -24rpx) !important;
+  margin: 12rpx;
+  text-align: center;
+  position: relative;
+}
+swiper .swiper-item .swiper-img image.data-v-761dc4f2 {
+  width: 70rpx;
+  height: 70rpx;
+  border-radius: 35rpx;
+  display: block;
+  margin: 10rpx auto;
+}
+.instruct-view.data-v-761dc4f2 {
+  margin-top: 10rpx;
+  display: flex;
+  justify-content: center;
+}
+.instruct-view .instruct.data-v-761dc4f2 {
+  width: 30rpx;
+  height: 10rpx;
+  border-radius: 5rpx;
+  margin: 0 10rpx;
+  background: #e6e6e6;
+}
+.active.data-v-761dc4f2 {
+  background: #fbae22 !important;
+}
+

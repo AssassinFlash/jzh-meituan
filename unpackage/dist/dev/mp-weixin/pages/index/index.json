@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "jzh外卖",
+  "usingComponents": {
+    "search": "/components/index/search/search",
+    "preference": "/components/index/preference/preference",
+    "nearby": "/components/index/nearby/nearby",
+    "delicacy": "/components/index/delicacy/delicacy",
+    "takeout": "/components/index/takeout/takeout"
+  }
+}
