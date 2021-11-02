@@ -17,18 +17,3 @@ export function swiperList() {
     })
   })
 }
-// 测试
-export function meituanTest() {
-  return new Promise((resolve, reject) => {
-    uni.request({
-      url: `${meituanBaseUrl}/forshop/starting`,
-      method: 'post',
-      success: (res) => {
-        resolve(res)
-      },
-      fail: (error) => {
-        reject(error)
-      }
-    })
-  })
-}

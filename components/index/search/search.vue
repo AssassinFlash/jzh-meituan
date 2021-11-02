@@ -53,12 +53,11 @@
         </block>
       </view>
     </view>
-    <view v-for="(item, index) in testData" :key="index">{{ item.shop }}</view>
   </view>
 </template>
 
 <script>
-import { swiperList, meituanTest } from "../../../common/easymock/api.js";
+import { swiperList } from "../../../common/easymock/api.js";
 export default {
   data() {
     return {
@@ -74,12 +73,6 @@ export default {
       this.swiperList = res.swiperList;
       console.log(this.swiperList);
     },
-    // 测试
-    async test() {
-      const res = await meituanTest();
-      this.testData = res.data;
-      console.log(this.testData);
-    },
     // 处理轮播页发生改变的事件
     handleSwiperChange(event) {
       console.log(event);
@@ -87,7 +80,6 @@ export default {
   },
   mounted() {
     this.getSwiperList();
-    this.test();
   },
 };
 </script>

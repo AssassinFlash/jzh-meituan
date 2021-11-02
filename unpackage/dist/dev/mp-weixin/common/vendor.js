@@ -11216,7 +11216,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.swiperList = swiperList;exports.meituanTest = meituanTest;var mockBaseUrl =
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.swiperList = swiperList;var mockBaseUrl =
 'https://mock.mengxuegu.com/mock/617e644eb17b351d1beab504/meituan';
 
 var meituanBaseUrl = 'https://meituan.thexxdd.cn/api';
@@ -11231,21 +11231,6 @@ function swiperList() {
       },
       fail: function fail(err) {
         reject(err);
-      } });
-
-  });
-}
-// 测试
-function meituanTest() {
-  return new Promise(function (resolve, reject) {
-    uni.request({
-      url: "".concat(meituanBaseUrl, "/forshop/starting"),
-      method: 'post',
-      success: function success(res) {
-        resolve(res);
-      },
-      fail: function fail(error) {
-        reject(error);
       } });
 
   });
